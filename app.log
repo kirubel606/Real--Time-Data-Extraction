@@ -13,3 +13,9 @@
 2024-08-27 16:40:32,967 ERROR:Missing field: _status
 2024-08-27 16:40:32,967 ERROR:No JSON data received
 2024-08-27 16:40:33,082 INFO:Data saved successfully for submission_id: 123
+2024-08-27 17:10:37,048 INFO: * Detected change in 'D:\\GitHub\\Real--Time-Data-Extraction\\app.py', reloading
+2024-08-27 17:10:37,247 INFO: * Restarting with stat
+2024-08-27 17:10:43,479 WARNING: * Debugger is active!
+2024-08-27 17:10:43,495 INFO: * Debugger PIN: 108-988-984
+2024-08-27 17:10:44,751 INFO: * Detected change in 'D:\\GitHub\\Real--Time-Data-Extraction\\app.py', reloading
+2024-08-27 17:10:44,872 INFO: * Restarting with stat

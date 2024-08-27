@@ -1,6 +1,8 @@
 from flask import Flask, request, jsonify
 import sqlite3
 import logging
+import subprocess
+import sys
 
 app = Flask(__name__)
 
@@ -68,5 +70,15 @@ def receive_data():
         logging.error(f"Error saving data: {str(e)}", exc_info=True)  # Log full stack trace
         return jsonify({"error": "An error occurred"}), 500
 
+def run_fetch():
+    """Run fetch.py to update data"""
+    try:
+        result = subprocess.run([sys.executable, 'fetch.py'], check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        logging.info(f"fetch.py output: {result.stdout.decode()}")
+    except subprocess.CalledProcessError as e:
+        logging.error(f"fetch.py failed: {e.stderr.decode()}")
+
+
 if __name__ == '__main__':
+    run_fetch()
     app.run(debug=True)

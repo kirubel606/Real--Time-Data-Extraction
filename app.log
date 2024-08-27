@@ -1,21 +1,47 @@
-2024-08-27 16:39:21,860 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2024-08-27 17:14:53,572 INFO:fetch.py output: (1, 375105515, 'SONIA NIYONKURU', '106-19-00759', 'Juba urban refugees', '921168696', None, 'Smart phone', 'Female', 28, 'Burundian', 'Urban Based Refugee', 'No', 'Attended primary school', 'New clients', 'Yes', 3)
+(2, 375106171, 'LELMLEM REDA HAGOS', '243-00009844', 'Juba urban refugees', '923233239', '911286957', 'Feature phone', 'Female', 58, 'Ethiopian', 'Urban Based Refugee', 'No', 'Attended primary school', 'New clients', 'Yes', 2)
+(3, 375106429, 'DESSALEGN KAHSAY GEBREMARIAM', '106-00008293', 'Juba urban refugees', '920272199', '925126776', 'Smart phone Feature phone', 'Male', 42, 'Ethiopian', 'Urban Based Refugee', 'No', 'Finished high school/Graduate', 'New clients', 'Yes', 3)
+(4, 375106577, 'RAHEL AMARE ADHANOM', '106-00009142', 'Juba urban refugees', '915441116', '910014559', 'Smart phone', 'Female', 34, 'Ethiopian', 'Urban Based Refugee', 'No', 'Attended high school', 'New clients', 'Yes', 2)
+(5, 375106609, 'NDIKURIYO EGIDE', '106-00002884', 'Juba urban refugees', '921814730', '927360888', 'Smart phone Feature phone', 'Male', 33, 'Burundian', 'Urban Based Refugee', 'No', 'Attended high school', 'New clients', 'Yes', 5)
+(6, 375106851, 'NETSANET ADENE GEBREHIWET', '106-00010320', 'Juba urban refugees', '925956160', None, 'Smart phone', 'Female', 32, 'Ethiopian', 'Urban Based Refugee', 'No', 'Attended high school', 'New clients', 'Yes', 3)
+(7, 375106969, 'NIBITANGA  VALERA', '106-00011663', 'Juba urban refugees', '980358309', None, 'Smart phone', 'Female', 38, 'Burundian', 'Urban Based Refugee', 'No', 'Attended primary school', 'New clients', 'No', 3)
+(8, 375107124, 'FRANCINE NIMPAYE', '106-22-00825', 'Juba urban refugees', '929826093', '980405506', 'Smart phone', 'Female', 33, 'Burundian', 'Urban Based Refugee', 'No', 'Attended primary school', 'New clients', 'Yes', 4)
+(9, 375107299, 'ESPERANCE NYEYIMANA', '106-00011657', 'Juba urban refugees', '926985823', '980326248', 'Smart phone Feature phone', 'Female', 28, 'Burundian', 'Urban Based Refugee', 'No', 'Finished high school/Graduate', 'New clients', 'Yes', 4)
+(10, 375165164, 'NDIKURIYO EGIDE', '106-00002884', 'Juba urban refugees', '921814730', '927360888', 'Smart phone Feature phone', 'Male', 33, 'Burundian', 'Urban Based Refugee', 'No', 'Attended high school', 'New clients', 'Yes', 5)
+(11, 375168034, 'SONIA NIYONKURU', '106-19-00759', 'Juba urban refugees', '921168696', None, 'Smart phone', 'Female', 28, 'Burundian', 'Urban Based Refugee', 'No', 'Attended primary school', 'New clients', 'Yes', 3)
+(12, 375973415, 'NDIKURIYO EGIDE', '106-00002884', 'Juba urban refugees', '921814730', '927360888', 'Smart phone Feature phone', 'Male', 33, 'Burundian', 'Urban Based Refugee', 'No', 'Attended high school', 'New clients', 'Yes', 5)
+(13, 376087072, 'ESPERANCE NYEYIMANA', '106-00011657', 'Juba urban refugees', '926985823', '980326248', 'Smart phone Feature phone', 'Female', 28, 'Burundian', 'Urban Based Refugee', 'No', 'Finished high school/Graduate', 'New clients', 'Yes', 4)
+
+2024-08-27 17:14:53,696 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-2024-08-27 16:39:21,860 INFO:[33mPress CTRL+C to quit[0m
-2024-08-27 16:39:21,860 INFO: * Restarting with stat
-2024-08-27 16:39:22,193 WARNING: * Debugger is active!
-2024-08-27 16:39:22,193 INFO: * Debugger PIN: 108-988-984
-2024-08-27 16:40:22,145 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-2024-08-27 16:40:22,145 INFO:[33mPress CTRL+C to quit[0m
-2024-08-27 16:40:22,155 INFO: * Restarting with stat
-2024-08-27 16:40:22,515 WARNING: * Debugger is active!
-2024-08-27 16:40:22,520 INFO: * Debugger PIN: 108-988-984
-2024-08-27 16:40:32,967 ERROR:Missing field: _status
-2024-08-27 16:40:32,967 ERROR:No JSON data received
-2024-08-27 16:40:33,082 INFO:Data saved successfully for submission_id: 123
-2024-08-27 17:10:37,048 INFO: * Detected change in 'D:\\GitHub\\Real--Time-Data-Extraction\\app.py', reloading
-2024-08-27 17:10:37,247 INFO: * Restarting with stat
-2024-08-27 17:10:43,479 WARNING: * Debugger is active!
-2024-08-27 17:10:43,495 INFO: * Debugger PIN: 108-988-984
-2024-08-27 17:10:44,751 INFO: * Detected change in 'D:\\GitHub\\Real--Time-Data-Extraction\\app.py', reloading
-2024-08-27 17:10:44,872 INFO: * Restarting with stat
+2024-08-27 17:14:53,696 INFO:[33mPress CTRL+C to quit[0m
+2024-08-27 17:14:53,696 INFO: * Restarting with stat
+2024-08-27 17:14:55,250 INFO:fetch.py output: (1, 375105515, 'SONIA NIYONKURU', '106-19-00759', 'Juba urban refugees', '921168696', None, 'Smart phone', 'Female', 28, 'Burundian', 'Urban Based Refugee', 'No', 'Attended primary school', 'New clients', 'Yes', 3)
+(2, 375106171, 'LELMLEM REDA HAGOS', '243-00009844', 'Juba urban refugees', '923233239', '911286957', 'Feature phone', 'Female', 58, 'Ethiopian', 'Urban Based Refugee', 'No', 'Attended primary school', 'New clients', 'Yes', 2)
+(3, 375106429, 'DESSALEGN KAHSAY GEBREMARIAM', '106-00008293', 'Juba urban refugees', '920272199', '925126776', 'Smart phone Feature phone', 'Male', 42, 'Ethiopian', 'Urban Based Refugee', 'No', 'Finished high school/Graduate', 'New clients', 'Yes', 3)
+(4, 375106577, 'RAHEL AMARE ADHANOM', '106-00009142', 'Juba urban refugees', '915441116', '910014559', 'Smart phone', 'Female', 34, 'Ethiopian', 'Urban Based Refugee', 'No', 'Attended high school', 'New clients', 'Yes', 2)
+(5, 375106609, 'NDIKURIYO EGIDE', '106-00002884', 'Juba urban refugees', '921814730', '927360888', 'Smart phone Feature phone', 'Male', 33, 'Burundian', 'Urban Based Refugee', 'No', 'Attended high school', 'New clients', 'Yes', 5)
+(6, 375106851, 'NETSANET ADENE GEBREHIWET', '106-00010320', 'Juba urban refugees', '925956160', None, 'Smart phone', 'Female', 32, 'Ethiopian', 'Urban Based Refugee', 'No', 'Attended high school', 'New clients', 'Yes', 3)
+(7, 375106969, 'NIBITANGA  VALERA', '106-00011663', 'Juba urban refugees', '980358309', None, 'Smart phone', 'Female', 38, 'Burundian', 'Urban Based Refugee', 'No', 'Attended primary school', 'New clients', 'No', 3)
+(8, 375107124, 'FRANCINE NIMPAYE', '106-22-00825', 'Juba urban refugees', '929826093', '980405506', 'Smart phone', 'Female', 33, 'Burundian', 'Urban Based Refugee', 'No', 'Attended primary school', 'New clients', 'Yes', 4)
+(9, 375107299, 'ESPERANCE NYEYIMANA', '106-00011657', 'Juba urban refugees', '926985823', '980326248', 'Smart phone Feature phone', 'Female', 28, 'Burundian', 'Urban Based Refugee', 'No', 'Finished high school/Graduate', 'New clients', 'Yes', 4)
+(10, 375165164, 'NDIKURIYO EGIDE', '106-00002884', 'Juba urban refugees', '921814730', '927360888', 'Smart phone Feature phone', 'Male', 33, 'Burundian', 'Urban Based Refugee', 'No', 'Attended high school', 'New clients', 'Yes', 5)
+(11, 375168034, 'SONIA NIYONKURU', '106-19-00759', 'Juba urban refugees', '921168696', None, 'Smart phone', 'Female', 28, 'Burundian', 'Urban Based Refugee', 'No', 'Attended primary school', 'New clients', 'Yes', 3)
+(12, 375973415, 'NDIKURIYO EGIDE', '106-00002884', 'Juba urban refugees', '921814730', '927360888', 'Smart phone Feature phone', 'Male', 33, 'Burundian', 'Urban Based Refugee', 'No', 'Attended high school', 'New clients', 'Yes', 5)
+(13, 376087072, 'ESPERANCE NYEYIMANA', '106-00011657', 'Juba urban refugees', '926985823', '980326248', 'Smart phone Feature phone', 'Female', 28, 'Burundian', 'Urban Based Refugee', 'No', 'Finished high school/Graduate', 'New clients', 'Yes', 4)
+(14, 375105515, 'SONIA NIYONKURU', '106-19-00759', 'Juba urban refugees', '921168696', None, 'Smart phone', 'Female', 28, 'Burundian', 'Urban Based Refugee', 'No', 'Attended primary school', 'New clients', 'Yes', 3)
+(15, 375106171, 'LELMLEM REDA HAGOS', '243-00009844', 'Juba urban refugees', '923233239', '911286957', 'Feature phone', 'Female', 58, 'Ethiopian', 'Urban Based Refugee', 'No', 'Attended primary school', 'New clients', 'Yes', 2)
+(16, 375106429, 'DESSALEGN KAHSAY GEBREMARIAM', '106-00008293', 'Juba urban refugees', '920272199', '925126776', 'Smart phone Feature phone', 'Male', 42, 'Ethiopian', 'Urban Based Refugee', 'No', 'Finished high school/Graduate', 'New clients', 'Yes', 3)
+(17, 375106577, 'RAHEL AMARE ADHANOM', '106-00009142', 'Juba urban refugees', '915441116', '910014559', 'Smart phone', 'Female', 34, 'Ethiopian', 'Urban Based Refugee', 'No', 'Attended high school', 'New clients', 'Yes', 2)
+(18, 375106609, 'NDIKURIYO EGIDE', '106-00002884', 'Juba urban refugees', '921814730', '927360888', 'Smart phone Feature phone', 'Male', 33, 'Burundian', 'Urban Based Refugee', 'No', 'Attended high school', 'New clients', 'Yes', 5)
+(19, 375106851, 'NETSANET ADENE GEBREHIWET', '106-00010320', 'Juba urban refugees', '925956160', None, 'Smart phone', 'Female', 32, 'Ethiopian', 'Urban Based Refugee', 'No', 'Attended high school', 'New clients', 'Yes', 3)
+(20, 375106969, 'NIBITANGA  VALERA', '106-00011663', 'Juba urban refugees', '980358309', None, 'Smart phone', 'Female', 38, 'Burundian', 'Urban Based Refugee', 'No', 'Attended primary school', 'New clients', 'No', 3)
+(21, 375107124, 'FRANCINE NIMPAYE', '106-22-00825', 'Juba urban refugees', '929826093', '980405506', 'Smart phone', 'Female', 33, 'Burundian', 'Urban Based Refugee', 'No', 'Attended primary school', 'New clients', 'Yes', 4)
+(22, 375107299, 'ESPERANCE NYEYIMANA', '106-00011657', 'Juba urban refugees', '926985823', '980326248', 'Smart phone Feature phone', 'Female', 28, 'Burundian', 'Urban Based Refugee', 'No', 'Finished high school/Graduate', 'New clients', 'Yes', 4)
+(23, 375165164, 'NDIKURIYO EGIDE', '106-00002884', 'Juba urban refugees', '921814730', '927360888', 'Smart phone Feature phone', 'Male', 33, 'Burundian', 'Urban Based Refugee', 'No', 'Attended high school', 'New clients', 'Yes', 5)
+(24, 375168034, 'SONIA NIYONKURU', '106-19-00759', 'Juba urban refugees', '921168696', None, 'Smart phone', 'Female', 28, 'Burundian', 'Urban Based Refugee', 'No', 'Attended primary school', 'New clients', 'Yes', 3)
+(25, 375973415, 'NDIKURIYO EGIDE', '106-00002884', 'Juba urban refugees', '921814730', '927360888', 'Smart phone Feature phone', 'Male', 33, 'Burundian', 'Urban Based Refugee', 'No', 'Attended high school', 'New clients', 'Yes', 5)
+(26, 376087072, 'ESPERANCE NYEYIMANA', '106-00011657', 'Juba urban refugees', '926985823', '980326248', 'Smart phone Feature phone', 'Female', 28, 'Burundian', 'Urban Based Refugee', 'No', 'Finished high school/Graduate', 'New clients', 'Yes', 4)
+
+2024-08-27 17:14:55,266 WARNING: * Debugger is active!
+2024-08-27 17:14:55,281 INFO: * Debugger PIN: 108-988-984

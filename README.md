@@ -126,7 +126,7 @@ Hosted Endpoint that has been registered `https://dbede9a9-b3d5-46ac-a0a2-fc96c1
 1. **Data Format**: The data received from KoboToolbox is in JSON format with the expected field names. Adjustments are required if the data structure changes.
 2. **Database Integrity**: The SQLite database is used for simplicity and is assumed to be sufficient for the expected volume of data.
 3. **Error Handling**: The script and application are designed to handle common errors but might need adjustments for specific edge cases or additional requirements.
-4. **Security**: Sensitive information, such as API tokens, should be managed securely and not hard-coded in the scripts.
+
 
 ## Conclusion
 

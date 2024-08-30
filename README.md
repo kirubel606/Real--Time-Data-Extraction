@@ -44,6 +44,8 @@ python app.py
 ```
 The Flask app will be available at `http://127.0.0.1:5000`.
 
+Hosted Endpoint that has been registered `https://dbede9a9-b3d5-46ac-a0a2-fc96c1b4f533-00-hminyejwck5p.janeway.replit.dev:3001/api`
+
 ### API Endpoints
 
 - **POST /api**: Receives JSON data and inserts it into the database.

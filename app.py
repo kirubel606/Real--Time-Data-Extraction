@@ -25,16 +25,16 @@ def receive_data():
         logging.error("No JSON data received")
         return jsonify({"error": "Invalid data format. JSON required."}), 400
 
+    data = request.json
+
     try:
-        # Get the JSON data from the POST request
-        data = request.json
-        
         # Basic validation: Ensure required fields are present
         required_fields = ['_id', '_submission_time', '_status', 'meta/instanceID', '_xform_id_string']
-        for field in required_fields:
-            if field not in data:
-                logging.error(f"Missing field: {field}")
-                return jsonify({"error": f"Missing field: {field}"}), 400
+        missing_fields = [field for field in required_fields if field not in data]
+        
+        if missing_fields:
+            logging.error(f"Missing fields: {', '.join(missing_fields)}")
+            return jsonify({"error": f"Missing fields: {', '.join(missing_fields)}"}), 400
 
         # Save the data to the SQLite database
         conn = get_db_connection()
@@ -53,7 +53,6 @@ def receive_data():
             data['_xform_id_string']  # xform_id_string
         ))
 
-        # Commit the changes and close the connection
         conn.commit()
         conn.close()
 
@@ -65,20 +64,23 @@ def receive_data():
         logging.error(f"Database error: {str(e)}")
         return jsonify({"error": "Database error occurred"}), 500
 
-
     except Exception as e:
-        logging.error(f"Error saving data: {str(e)}", exc_info=True)  # Log full stack trace
+        logging.error(f"Error saving data: {str(e)}", exc_info=True)
         return jsonify({"error": "An error occurred"}), 500
 
 def run_fetch():
     """Run fetch.py to update data"""
     try:
         result = subprocess.run([sys.executable, 'fetch.py'], check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        logging.info(f"fetch.py output: {result.stdout.decode()}")
+        return jsonify({"message": "Fetch operation completed", "output": result.stdout.decode()}), 200
     except subprocess.CalledProcessError as e:
-        logging.error(f"fetch.py failed: {e.stderr.decode()}")
+        logging.error(f"Fetch operation failed: {e.stderr.decode()}")
+        return jsonify({"error": "Fetch operation failed", "details": e.stderr.decode()}), 500
 
+# Define an endpoint to trigger fetch.py
+@app.route('/api/fetch', methods=['GET'])
+def trigger_fetch():
+    return run_fetch()
 
 if __name__ == '__main__':
-    run_fetch()
     app.run(debug=True)
